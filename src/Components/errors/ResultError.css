@@ -1,0 +1,7 @@
+.results-error{
+    border: black solid 1px;
+    background-color: gray;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bold;
+}

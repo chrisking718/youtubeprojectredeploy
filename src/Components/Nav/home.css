@@ -1,0 +1,30 @@
+.search-feature{
+    text-align: center;
+}
+
+button{
+background-color: red;
+color: white;
+height: 30px
+}
+
+.search{
+    width: 320px;
+    height: 30px;
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: lightblue;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+.thumbnails{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    border: black 1px solid;
+}
