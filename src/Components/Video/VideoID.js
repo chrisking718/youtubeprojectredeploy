@@ -22,15 +22,15 @@ const {id} = useParams()
 
 
 
-const [storedResults, setStoredResults] = useState([]);
+// const [storedResults, setStoredResults] = useState([]);
 
-useEffect(() => {
-   const items = JSON.parse(localStorage.getItem('stored-results'));
-  if (storedResults) {
-    setStoredResults(items);
-  }
+// useEffect(() => {
+//    const items = JSON.parse(localStorage.getItem('stored-results'));
+//   if (storedResults) {
+//     setStoredResults(items);
+//   }
   
-}, []);
+// }, []);
 
 function handleComment(comments){
     

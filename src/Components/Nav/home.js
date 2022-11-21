@@ -30,17 +30,17 @@ const [storedResults, setStoredResults] = useState([])
    }
 
 
-    useEffect(() => {
-    localStorage.setItem('stored-results', JSON.stringify(youtube));
-    }, [search]);
+    // useEffect(() => {
+    // localStorage.setItem('stored-results', JSON.stringify(youtube));
+    // }, [search]);
 
 
-    useEffect(() => {
-        const items = JSON.parse(localStorage.getItem('stored-results'));
-        if (storedResults) {
-         setStoredResults(items);
-        }
-      }, []);
+    // useEffect(() => {
+    //     const items = JSON.parse(localStorage.getItem('stored-results'));
+    //     if (storedResults) {
+    //      setStoredResults(items);
+    //     }
+    //   }, []);
 
   // this function gets the value that the user typed in the search bar and sets it to the search state  
    function handleTextChange(event) {
