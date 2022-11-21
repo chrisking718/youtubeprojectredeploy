@@ -22,7 +22,7 @@ const {id} = useParams()
 
 
 
-// const [storedResults, setStoredResults] = useState([]);
+const [storedResults, setStoredResults] = useState([]);
 
 // useEffect(() => {
 //    const items = JSON.parse(localStorage.getItem('stored-results'));
