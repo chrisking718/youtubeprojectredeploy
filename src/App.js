@@ -1,8 +1,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import firebase  from './firebase';
-import { auth } from './firebase'
+
 
 import './App.css';
 import Home from "./Components/Nav/home"
